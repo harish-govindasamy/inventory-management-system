@@ -1,7 +1,8 @@
- 
 # Inventory Management System (IMS)
 
 An Inventory Management System built with Vite, React.js for the frontend, and Node.js, Express, and MongoDB for the backend.
+
+![Screenshot](screenshot.png)
 
 ## Table of Contents
 
@@ -153,12 +154,14 @@ C:.
 ## Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
    ```
 
 2. **Backend Setup:**
+
    ```bash
    cd Backend
    npm install
@@ -173,6 +176,7 @@ C:.
 ## Running the Application
 
 1. **Run Backend:**
+
    ```bash
    cd Backend
    npm start
@@ -189,6 +193,7 @@ C:.
 Create a `.env` file in the Backend and Frontend directories and configure the following:
 
 ### Backend `.env`:
+
 ```env
 MONGODB_URI=your_mongodb_connection_string
 PORT=3000
@@ -198,6 +203,7 @@ ORIGIN=http://localhost:3000
 ```
 
 ### Frontend `.env`:
+
 ```env
 VITE_SERVER=https://inventory-management-backend-hsaf.onrender.com
 VITE_MODE=PROD
