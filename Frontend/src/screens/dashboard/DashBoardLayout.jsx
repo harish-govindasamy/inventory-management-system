@@ -93,17 +93,6 @@ function DashBoardLayout() {
               </Link>
             </div>
           </div>
-          <footer className="mt-4 text-center">
-            <p
-              className="font-semibold text-gray-700"
-              style={{
-                fontFamily: "Pacifico, cursive",
-                letterSpacing: "0.05em",
-              }}
-            >
-              Created by Harish G - Batch59WD-T
-            </p>
-          </footer>
         </div>
       )}
     </>
