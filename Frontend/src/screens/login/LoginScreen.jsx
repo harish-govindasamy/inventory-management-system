@@ -4,7 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { SERVER_URL } from "../../router";
 
 function LoginScreen() {
-  
   const [formData, setData] = useState({
     email: "",
     password: "",
@@ -46,6 +45,7 @@ function LoginScreen() {
   }
 
   return (
+
     <div className="flex items-center min-h-screen p-4 bg-gray-100 lg:justify-center">
       <div className="flex flex-col overflow-hidden bg-white rounded-md shadow-lg max md:flex-row md:flex-1 lg:max-w-screen-md">
         <div className="p-4 py-6 text-white bg-blue-500 md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly">
@@ -137,6 +137,17 @@ function LoginScreen() {
               </button>
             </div>
           </form>
+          <footer className="mt-4 text-center">
+            <p
+              className="font-semibold text-gray-700"
+              style={{
+                fontFamily: "Pacifico, cursive",
+                letterSpacing: "0.05em",
+              }}
+            >
+              Created by Harish G - Batch59WD-T
+            </p>
+          </footer>
         </div>
       </div>
     </div>
